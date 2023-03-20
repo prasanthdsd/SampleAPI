@@ -11,6 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>sample-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
     <name>sample-api</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -49,16 +50,6 @@
             <artifactId>hamcrest-junit</artifactId>
             <version>2.0.0.0</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.cornutum.tcases</groupId>
-            <artifactId>tcases-openapi</artifactId>
-            <version>3.8.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.cornutum.tcases</groupId>
-            <artifactId>tcases-rest-assured</artifactId>
-            <version>3.8.6</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
